@@ -3,6 +3,9 @@
 using System.Text.Json;
 using Microsoft.Identity.Client;
 
+
+//为这个应用创建一个独立的app，申请密钥，并且申请API的application权限
+
 IConfidentialClientApplication app = ConfidentialClientApplicationBuilder
     .Create("bd596583-55df-4277-9a3d-79159f3dc59a")
     .WithClientSecret("oqw7Q~xM~KrRu2iWCdAG6GEVfgHpPh2v6M_4A")

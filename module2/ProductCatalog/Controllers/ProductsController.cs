@@ -21,9 +21,13 @@ namespace ProductCatalog.Controllers
             this.data = data;
         }
 
+
+        [Authorize(Roles = "access_as_application")]// 这样也可以设置角色检测
         public List<Product> GetAllProducts()
         {
-            if(!HttpContext.User.IsInRole("access_as_application")){
+            if (!HttpContext.User.IsInRole("access_as_application"))
+            {
+                //这个代码是用来检测是不是应用程序权限访问（App Role）
                 HttpContext.VerifyUserHasAnyAcceptedScope(new string[] { "Product.Read" });
 
             }
@@ -33,7 +37,8 @@ namespace ProductCatalog.Controllers
         [HttpGet("{id}")]
         public Product GetProduct(int id)
         {
-            if(!HttpContext.User.IsInRole("access_as_application")){
+            if (!HttpContext.User.IsInRole("access_as_application"))
+            {
                 HttpContext.VerifyUserHasAnyAcceptedScope(new string[] { "Product.Read" });
             }
             return data.Products.FirstOrDefault(p => p.Id.Equals(id));
