@@ -1,7 +1,65 @@
-aka.ms/ge
+https://developer.microsoft.com/zh-cn/graph/graph-explorer
 
-$search
-$expand
-$filter
-$select
-$orderby
+https://graph.microsoft.com/v1.0/
+https://graph.microsoft.com/v1.0/me/photo/$value 
+https://graph.microsoft.com/v1.0/me/manager
+https://graph.microsoft.com/v1.0/me/messages
+https://graph.microsoft.com/v1.0/me/messages?$count=true
+https://graph.microsoft.com/v1.0/me/messages?$top=50
+https://graph.microsoft.com/v1.0/me/messages?$top=50&$skip=20
+https://graph.microsoft.com/v1.0/me/messages?$top=50&$orderby=subject
+https://graph.microsoft.com/v1.0/me/messages?$top=50&$orderby=subject&$select=id,subject,sentDateTime
+https://graph.microsoft.com/v1.0/me/messages?$select=id,subject,sentDateTime&$search="monthly"
+https://graph.microsoft.com/v1.0/me/messages?$filter=hasAttachments eq false
+https://graph.microsoft.com/v1.0/education/me/classes?$expand=members
+https://graph.microsoft.com/v1.0/me/drive/root?$expand=children
+
+批量查询
+POST https://graph.microsoft.com/v1.0/$batch
+
+{
+    "requests": [
+        {
+            "url": "/me?$select=displayName,jobTitle,userPrincipalName",
+            "method": "GET",
+            "id": "1"
+        },
+        {
+            "url": "/me/messages?$filter=importance eq 'high'&$select=from,subject,receivedDateTime,bodyPreview",
+            "method": "GET",
+            "id": "2"
+        },
+        {
+            "url": "/me/events",
+            "method": "GET",
+            "id": "3"
+        }
+    ]
+}
+
+
+{
+  "requests":
+  [
+    {
+      "url": "/me/drive/root/children",
+      "method": "POST",
+      "id": "1",
+      "body": {
+        "name": "TestBatchingFolder",
+        "folder": {}
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "url": "/me/drive/root/children/TestBatchingFolder ",
+      "method": "GET",
+      "id": "2",
+      "DependsOn": [
+        "1"
+      ]
+    }
+  ]
+}
