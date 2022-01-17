@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "5NxNuNOADYpLiDV4xz1y24nu8CV4yH0Bkl97sq2hXfaHrU7YDoToGfoGl/KkedRwn9vQVZHW6zIGP/VUK8y2kw==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\training\\module2\\console\\console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arechen\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+    "C:\\Users\\arechen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\arechen\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "C:\\Users\\arechen\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\arechen\\.nuget\\packages\\microsoft.identity.client\\4.40.0\\microsoft.identity.client.4.40.0.nupkg.sha512",
+    "C:\\Users\\arechen\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
