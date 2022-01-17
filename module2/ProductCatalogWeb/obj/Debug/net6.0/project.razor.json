@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\ProductCatalogWeb.csproj",
+  "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\ProductCatalogWeb.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,63 +16298,63 @@
   "RootNamespace": "ProductCatalogWeb",
   "Documents": [
     {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Categories\\Index.cshtml",
-      "TargetPath": "Views\\Categories\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Products\\Index.cshtml",
-      "TargetPath": "Views\\Products\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Products\\Create.cshtml",
-      "TargetPath": "Views\\Products\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Categories\\Create.cshtml",
-      "TargetPath": "Views\\Categories\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Categories\\Create.cshtml",
+      "TargetPath": "Views\\Categories\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Products\\Index.cshtml",
+      "TargetPath": "Views\\Products\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\temp\\training\\module2\\ProductCatalogWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Categories\\Index.cshtml",
+      "TargetPath": "Views\\Categories\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Products\\Create.cshtml",
+      "TargetPath": "Views\\Products\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\temp\\microsoft-teams-integration-and-workflow\\module2\\ProductCatalogWeb\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],
