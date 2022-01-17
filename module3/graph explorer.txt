@@ -1,0 +1,7 @@
+aka.ms/ge
+
+$search
+$expand
+$filter
+$select
+$orderby
