@@ -85,9 +85,7 @@ export default function Tab() {
       }}>显示卡片</button>
 
 
-      <a href="https://teams.microsoft.com/l/task/<APP_ID>?url=<TASKINFO.URL>&height=<TASKINFO.HEIGHT>&width=<TASKINFO.WIDTH>&title=<TASKINFO.TITLE>">
-        
-      </a>
+
 
 
     </div>
