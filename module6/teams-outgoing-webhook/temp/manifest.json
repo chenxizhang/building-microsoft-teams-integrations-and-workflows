@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.9",
+  "id": "da491f20-78bd-11ec-918e-eb11f838e512",
+  "version": "0.0.1",
+  "packageName": "teamsoutgoingwebhook",
+  "developer": {
+    "name": "chenxizhang",
+    "websiteUrl": "https://teamsoutgoingwebhook.azurewebsites.net",
+    "privacyUrl": "https://teamsoutgoingwebhook.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://teamsoutgoingwebhook.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "teams outgoing webhook",
+    "full": "teams outgoing webhook"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "teamsoutgoingwebhook.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false
+}
