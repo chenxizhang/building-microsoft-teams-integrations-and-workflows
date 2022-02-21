@@ -54,7 +54,7 @@ POST https://graph.microsoft.com/v1.0/$batch
       }
     },
     {
-      "url": "/me/drive/root/children/TestBatchingFolder ",
+      "url": "/me/drive/root/children/TestBatchingFolder",
       "method": "GET",
       "id": "2",
       "DependsOn": [

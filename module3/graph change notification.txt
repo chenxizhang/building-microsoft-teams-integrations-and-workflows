@@ -1,5 +1,7 @@
 POST https://graph.microsoft.com/v1.0/subscriptions
 
+需要有User.Read.All权限
+
 {
     "changeType": "updated",
     "notificationUrl": "https://publicfunctions.azurewebsites.net/api/msgraph-trackchanges?",
