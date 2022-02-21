@@ -231,11 +231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\temp\\training\\module2\\console\\console.csproj",
+      "projectUniqueName": "C:\\Users\\arechen\\Building-Microsoft-Teams-Integrations-and-Workflows\\module2\\console\\console.csproj",
       "projectName": "console",
-      "projectPath": "c:\\temp\\training\\module2\\console\\console.csproj",
+      "projectPath": "C:\\Users\\arechen\\Building-Microsoft-Teams-Integrations-and-Workflows\\module2\\console\\console.csproj",
       "packagesPath": "C:\\Users\\arechen\\.nuget\\packages\\",
-      "outputPath": "c:\\temp\\training\\module2\\console\\obj\\",
+      "outputPath": "C:\\Users\\arechen\\Building-Microsoft-Teams-Integrations-and-Workflows\\module2\\console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arechen\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -290,7 +290,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

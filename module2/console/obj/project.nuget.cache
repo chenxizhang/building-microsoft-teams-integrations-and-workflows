@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5NxNuNOADYpLiDV4xz1y24nu8CV4yH0Bkl97sq2hXfaHrU7YDoToGfoGl/KkedRwn9vQVZHW6zIGP/VUK8y2kw==",
+  "dgSpecHash": "XqwJTvGlsKsxTREtAxP+r8z/F2Wu5uZXt96/vuL/qhkSI2C3QobO2y6C225VfP+c8OsKNGXW3Xij2uiUHBIeAw==",
   "success": true,
-  "projectFilePath": "C:\\temp\\training\\module2\\console\\console.csproj",
+  "projectFilePath": "C:\\Users\\arechen\\Building-Microsoft-Teams-Integrations-and-Workflows\\module2\\console\\console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arechen\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\arechen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

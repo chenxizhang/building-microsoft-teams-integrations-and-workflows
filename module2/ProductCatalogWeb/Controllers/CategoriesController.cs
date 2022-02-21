@@ -40,6 +40,9 @@ namespace ProductCatalogWeb.Controllers
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase
             };
             var categories = JsonSerializer.Deserialize(json, typeof(List<Category>), serializerOptions) as List<Category>;
+
+            
+
             return View(categories);
         }
 

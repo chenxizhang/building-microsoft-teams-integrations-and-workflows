@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1xZJJGI37+4TIZdJf+AOc0ucIvdLCx2HMxbou1ruwJHsTedsgg+WWsVhTLzYW67jkK3nOxJRBEwK5QO22pwpTw==",
+  "dgSpecHash": "VGiIClr0wRkwZAt1Wb6+bW4rtf55hpv0ze+ei/U+gAyiEccK24pfj0wZLmrONCgxIVCd6bes4uk9szK2UJYieA==",
   "success": true,
-  "projectFilePath": "C:\\temp\\training\\module2\\ProductCatalog\\ProductCatalog.csproj",
+  "projectFilePath": "C:\\Users\\arechen\\Building-Microsoft-Teams-Integrations-and-Workflows\\module2\\ProductCatalog\\ProductCatalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arechen\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\arechen\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

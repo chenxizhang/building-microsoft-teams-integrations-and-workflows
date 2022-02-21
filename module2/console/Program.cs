@@ -19,6 +19,8 @@ string[] scopes = new string[]{
 
 AuthenticationResult result = await app.AcquireTokenForClient(scopes).ExecuteAsync();
 
+Console.WriteLine(result.AccessToken);
+
 var client = new HttpClient();
 
 var defaultHeaders = client.DefaultRequestHeaders;

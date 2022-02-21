@@ -1248,11 +1248,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\temp\\training\\module2\\ProductCatalog\\ProductCatalog.csproj",
+      "projectUniqueName": "C:\\Users\\arechen\\Building-Microsoft-Teams-Integrations-and-Workflows\\module2\\ProductCatalog\\ProductCatalog.csproj",
       "projectName": "ProductCatalog",
-      "projectPath": "C:\\temp\\training\\module2\\ProductCatalog\\ProductCatalog.csproj",
+      "projectPath": "C:\\Users\\arechen\\Building-Microsoft-Teams-Integrations-and-Workflows\\module2\\ProductCatalog\\ProductCatalog.csproj",
       "packagesPath": "C:\\Users\\arechen\\.nuget\\packages\\",
-      "outputPath": "C:\\temp\\training\\module2\\ProductCatalog\\obj\\",
+      "outputPath": "C:\\Users\\arechen\\Building-Microsoft-Teams-Integrations-and-Workflows\\module2\\ProductCatalog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arechen\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1318,7 +1318,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
