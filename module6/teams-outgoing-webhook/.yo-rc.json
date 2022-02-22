@@ -1,9 +1,0 @@
-{
-  "generator-teams": {
-    "promptValues": {
-      "developer": "chenxizhang"
-    },
-    "libraryName": "teamsOutgoingWebhook",
-    "generator-version": "3.5.0"
-  }
-}
