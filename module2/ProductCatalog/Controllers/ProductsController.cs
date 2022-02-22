@@ -22,7 +22,7 @@ namespace ProductCatalog.Controllers
         }
 
 
-        [Authorize(Roles = "access_as_application,6b759766-2ecb-4299-b31f-965ef23f2931")]// 这是应用程序权限检查
+        // [Authorize(Roles = "access_as_application,6b759766-2ecb-4299-b31f-965ef23f2931")]// 这是应用程序权限检查
         // [Authorize(Roles = "6b759766-2ecb-4299-b31f-965ef23f2931")] //这是Azure AD组，请注意，要在API这个应用程序上面启用组信息
         public List<Product> GetAllProducts()
         {

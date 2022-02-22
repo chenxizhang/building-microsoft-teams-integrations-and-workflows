@@ -8,6 +8,7 @@
 ## 准备
 
 1. 申请 Microsoft 365 开发者账号 <https://developer.microsoft.com/zh-CN/office/dev-program>
+
 1. 本地开发环境 
 
     ```
@@ -28,3 +29,7 @@
     ```powershell
     (".\module2\console\console.csproj",".\module2\ProductCatalog\ProductCatalog.csproj",".\module2\ProductCatalogWeb\ProductCatalogWeb.csproj",".\module3\graph-request-thottling\graphconsoleapp.csproj",".\module3\graph-user-data-console\graph-user-data-console.csproj") | ForEach-Object {dotnet restore $_}
     ```
+
+## 注意
+
+1. 所有范例代码中涉及到的应用程序信息（例如 `clientId`, `tenantId`等）都只是我这边的测试环境配置好的，如果需要正常运行，你需要自己按照实验手册注册对应的应用程序，并且替换掉代码中对应的信息。

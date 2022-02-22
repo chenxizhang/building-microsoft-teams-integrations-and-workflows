@@ -1,9 +1,13 @@
 # 第一章 实施Microsoft 标识（一）
 
 
+## 实验手册
+
+<https://docs.microsoft.com/zh-cn/learn/modules/identity-application-types/3-exercise-single-page-applications?ns-enrollment-type=LearningPath&ns-enrollment-id=learn-m365.identity-associate>
+
 ## 注册应用程序
 
-    https://aad.portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/Overview/appId/0e010870-42d4-4bfe-867b-01e49ca83f2b/isMSAApp/
+https://aad.portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/Overview/appId/0e010870-42d4-4bfe-867b-01e49ca83f2b/isMSAApp/
 
 ## 演示
 
@@ -17,14 +21,15 @@
 
     演示：https://codesandbox.io/s/msal-spa-o0cm4s
 
-1. 查看不同的权限，理解同意的框架
 
-    在 https://codesandbox.io/s/msal-spa-o0cm4s 这个例子中，`loginPopup` 这个方法中尝试传入不同的参数，使用管理员或普通用户账号(`demo@code365.xyz`)去登录，看看效果
+## 查看不同的权限，理解同意的框架
 
-    ```
-        Mail.Read  # 普通用户就可以同意的权限
-        Directory.Read.All  # 需要管理员同意的权限
-    ```
+在 https://codesandbox.io/s/msal-spa-o0cm4s 这个例子中，`loginPopup` 这个方法中尝试传入不同的参数，使用管理员或普通用户账号(`demo@code365.xyz`)去登录，看看效果
+
+```
+    Mail.Read  # 普通用户就可以同意的权限
+    Directory.Read.All  # 需要管理员同意的权限
+```
 
 ## 其他资源
 
