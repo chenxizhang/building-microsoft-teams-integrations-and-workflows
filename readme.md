@@ -3,7 +3,9 @@
 
 ## 概述
 
-这是微软虚拟培训（Microsoft Virtual Training Day）的配套案例，课程名为 《Build Microsoft Teams Integrations and Workflows》，中文版讲师为 陈希章， 目前供职于微软（亚洲）互联网工程院。
+这是微软虚拟培训日（Microsoft Virtual Training Day）的配套案例，课程名为 《Build Microsoft Teams Integrations and Workflows》，或《基于Microsoft Teams 构建应用集成和工作流》。
+
+中文版讲师为 陈希章， 目前供职于微软（亚洲）互联网工程院。
 
 ## 准备
 
