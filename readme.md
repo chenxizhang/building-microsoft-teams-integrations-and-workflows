@@ -13,14 +13,18 @@
 
 1. 本地开发环境 
 
-    ```
+    ```powershell
     # 安装choco这个工具
     Set-ExecutionPolicy Bypass -Scope Process -Force; 
     [System.Net.ServicePointManager]::SecurityProtocol =[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
     iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
     # 安装有关常用软件
-    choco install dotnet vscode nodejs-lts postman git python -y
+    choco install dotnet vscode git -y
+    choco install nodejs --version=14.18.3 -y  # SharePoint Framework相关工具依赖这个版本
+    refreshenv
+    npm install -g gulp gulp-cli yo generator-teams @microsoft/generator-sharepoint yarn ngrok
+
     ```
 1. 下载范例
     ```

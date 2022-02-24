@@ -1,3 +1,8 @@
+# 第三章 Microsoft Graph
+
+## 演示1 Microsoft Graph 查询和参数
+
+```
 实验手册：https://docs.microsoft.com/zh-cn/learn/modules/optimize-data-usage/5-exercise-expand-related-entities-search-content-microsoft-graph
 
 https://developer.microsoft.com/zh-cn/graph/graph-explorer
@@ -16,8 +21,14 @@ https://graph.microsoft.com/v1.0/me/messages?$filter=hasAttachments eq false
 https://graph.microsoft.com/v1.0/education/me/classes?$expand=members
 https://graph.microsoft.com/v1.0/me/drive/root?$expand=children
 
-批量查询
+```
+
+
+## 演示2 批量查询
+
 实验手册：https://docs.microsoft.com/zh-cn/learn/modules/optimize-data-usage/7-exercise-reduce-traffic-with-batched-requests
+
+```
 POST https://graph.microsoft.com/v1.0/$batch
 
 {
@@ -66,3 +77,39 @@ POST https://graph.microsoft.com/v1.0/$batch
     }
   ]
 }
+```
+
+
+## 演示3 流量控制
+
+实验手册：https://docs.microsoft.com/zh-cn/learn/modules/optimize-network-traffic/3-exercise-understand-throttling-microsoft-graph
+
+打开 [范例代码](./graph-request-thottling/), 运行 `dotnet run`
+
+## 演示4 访问用户数据
+
+实验手册：https://docs.microsoft.com/zh-cn/learn/modules/msgraph-access-user-data/3-exercise-reading-users?ns-enrollment-type=LearningPath&ns-enrollment-id=learn-m365.msgraph-associate
+
+打开 [范例代码](./graph-user-data-console/)， 运行 `dotnet run`
+
+## 演示5 订阅变更
+
+实验手册：https://docs.microsoft.com/zh-cn/learn/modules/msgraph-changenotifications-trackchanges/3-exercise-create-app
+
+```
+POST https://graph.microsoft.com/v1.0/subscriptions
+
+需要有User.Read.All权限
+
+
+https://pipedream.com/@chenxizhang
+
+{
+    "changeType": "updated",
+    "notificationUrl": "https://enfrrle0t9q41ua.m.pipedream.net",
+    "resource": "/users",
+    "expirationDateTime": "2022-01-17T20:00:00.0000000Z",
+    "clientState": "SecretClientState"
+}
+
+```
